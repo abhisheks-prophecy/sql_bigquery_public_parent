@@ -1,6 +1,6 @@
 WITH all_type_table AS (
 
-  {#kiran comment#}
+  {#test comment#}
   SELECT * 
   
   FROM {{ source('alias_prophecy_qa_qa_test_dataset', 'all_type_table') }}
@@ -9,7 +9,7 @@ WITH all_type_table AS (
 
 raw_payments AS (
 
-  {#kiran comment#}
+  {#test comment#}
   SELECT * 
   
   FROM {{ ref('raw_payments')}}
@@ -67,7 +67,8 @@ Reformat_1 AS (
     c_json AS c_json,
     c_array_int64 AS c_array_int64,
     c_struct AS c_struct,
-    p_date AS p_date
+    p_date AS p_date,
+    {{ SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column('c_string') }} AS c_base_project_macro_call
   
   FROM Join_1 AS in0
 
