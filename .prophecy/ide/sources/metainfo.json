@@ -16,7 +16,8 @@
     "editable" : true
   },
   "dependenciesContainer" : {
-    "lastError" : "actor name [dependencyBuildActorName-dbt_utils] is not unique!"
+    "dependencies" : { },
+    "prophecyProjectDependencies" : { }
   },
   "frontEndLanguage" : "sql"
 }

@@ -19,7 +19,7 @@
       "component" : "Source",
       "metadata" : {
         "label" : "all_type_table",
-        "x" : 120,
+        "x" : 100,
         "y" : 120,
         "phase" : 0,
         "comment" : "test comment"
@@ -462,7 +462,7 @@
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_concat_macro_base_column", "SQL_BigQueryParentProjectMain.qa_boolean_macro", "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ]
       },
       "properties" : {
-        "columnsSelector" : [ ],
+        "columnsSelector" : [ "EHazkN3U##c_int64", "EHazkN3U##c_bignumeric", "EHazkN3U##c_bool", "EHazkN3U##c_bytes", "EHazkN3U##c_string", "EHazkN3U##c_float64", "EHazkN3U##c_numeric_1", "EHazkN3U##c_numeric_2", "EHazkN3U##c_date", "EHazkN3U##c_interval", "EHazkN3U##c_time", "EHazkN3U##c_timestamp", "EHazkN3U##c_datetime", "EHazkN3U##c_geography", "EHazkN3U##c_json", "EHazkN3U##c_array_int64", "EHazkN3U##c_struct", "EHazkN3U##p_date" ],
         "expressions" : [ {
           "expression" : {
             "expression" : "{{ SQL_BaseGitDepProjectAllFinal.qa_concat_macro_base_column('c_string') }}"
