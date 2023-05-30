@@ -39,3 +39,7 @@ Release version 3.0.0-2
 *** Release notes for version: v3.0.1.0 ***
 
 v3.0.1.0
+
+*** Release notes for version: v3.0.2.0 ***
+
+v3.0.2.0
