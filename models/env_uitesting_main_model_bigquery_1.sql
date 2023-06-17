@@ -72,6 +72,14 @@ Reformat_1 AS (
   
   FROM Join_1 AS in0
 
+),
+
+Reformat_2 AS (
+
+  SELECT * 
+  
+  FROM all_type_table AS in0
+
 )
 
 SELECT *

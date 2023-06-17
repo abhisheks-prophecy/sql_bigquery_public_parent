@@ -153,6 +153,271 @@
         "isCustomOutputSchema" : false
       }
     },
+    "S5QGSEwovOmXQ7RxUm1sQ$$l4shZgilmZ_O8iNvz7Y8v" : {
+      "id" : "S5QGSEwovOmXQ7RxUm1sQ$$l4shZgilmZ_O8iNvz7Y8v",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_2",
+        "slug" : "Reformat_2",
+        "x" : 320,
+        "y" : 20,
+        "phase" : 0,
+        "macroDependencies" : [ ],
+        "dataExplorerProps" : {
+          "filter" : [ {
+            "type" : "simple",
+            "lhs" : "c_int64",
+            "operator" : ">=",
+            "rhs" : "23"
+          } ],
+          "sort" : [ {
+            "column" : "c_int64",
+            "order" : "asc"
+          } ]
+        }
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "expressions" : [ ]
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "U5lXBcMvx0oZWHSHl_ai1$$8EQyKuVclFrMHdk3P0GS6",
+          "schema" : {
+            "providerType" : "bigquery",
+            "fields" : [ {
+              "name" : "c_int64",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "c_bignumeric",
+              "dataType" : {
+                "type" : "BigNumeric"
+              }
+            }, {
+              "name" : "c_bool",
+              "dataType" : {
+                "type" : "Boolean"
+              }
+            }, {
+              "name" : "c_bytes",
+              "dataType" : {
+                "type" : "Bytes"
+              }
+            }, {
+              "name" : "c_string",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "c_float64",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "c_numeric_1",
+              "dataType" : {
+                "type" : "Numeric"
+              }
+            }, {
+              "name" : "c_numeric_2",
+              "dataType" : {
+                "type" : "Numeric"
+              }
+            }, {
+              "name" : "c_date",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "c_interval",
+              "dataType" : {
+                "type" : "Interval"
+              }
+            }, {
+              "name" : "c_time",
+              "dataType" : {
+                "type" : "Time"
+              }
+            }, {
+              "name" : "c_timestamp",
+              "dataType" : {
+                "type" : "Timestamp"
+              }
+            }, {
+              "name" : "c_datetime",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "c_geography",
+              "dataType" : {
+                "type" : "Geography"
+              }
+            }, {
+              "name" : "c_json",
+              "dataType" : {
+                "type" : "Json"
+              }
+            }, {
+              "name" : "c_array_int64",
+              "dataType" : {
+                "type" : "Array",
+                "dataType" : {
+                  "type" : "Integer"
+                }
+              }
+            }, {
+              "name" : "c_struct",
+              "dataType" : {
+                "type" : "Record",
+                "fields" : [ {
+                  "name" : "name",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                }, {
+                  "name" : "age",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "department",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                } ]
+              }
+            }, {
+              "name" : "p_date",
+              "dataType" : {
+                "type" : "Date"
+              }
+            } ]
+          },
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "fumOLiwdqXGMXIilsswRW$$Ec4WQ-UNDS06mY1fpU3zz",
+          "schema" : {
+            "providerType" : "BigQuery",
+            "fields" : [ {
+              "name" : "c_int64",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "c_bignumeric",
+              "dataType" : {
+                "type" : "BigNumeric"
+              }
+            }, {
+              "name" : "c_bool",
+              "dataType" : {
+                "type" : "Boolean"
+              }
+            }, {
+              "name" : "c_bytes",
+              "dataType" : {
+                "type" : "Bytes"
+              }
+            }, {
+              "name" : "c_string",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "c_float64",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "c_numeric_1",
+              "dataType" : {
+                "type" : "Numeric"
+              }
+            }, {
+              "name" : "c_numeric_2",
+              "dataType" : {
+                "type" : "Numeric"
+              }
+            }, {
+              "name" : "c_date",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "c_interval",
+              "dataType" : {
+                "type" : "Interval"
+              }
+            }, {
+              "name" : "c_time",
+              "dataType" : {
+                "type" : "Time"
+              }
+            }, {
+              "name" : "c_timestamp",
+              "dataType" : {
+                "type" : "Timestamp"
+              }
+            }, {
+              "name" : "c_datetime",
+              "dataType" : {
+                "type" : "Date"
+              }
+            }, {
+              "name" : "c_geography",
+              "dataType" : {
+                "type" : "Geography"
+              }
+            }, {
+              "name" : "c_json",
+              "dataType" : {
+                "type" : "Json"
+              }
+            }, {
+              "name" : "c_array_int64",
+              "dataType" : {
+                "type" : "Array",
+                "dataType" : {
+                  "type" : "Integer"
+                }
+              }
+            }, {
+              "name" : "c_struct",
+              "dataType" : {
+                "type" : "Record",
+                "fields" : [ {
+                  "name" : "name",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                }, {
+                  "name" : "age",
+                  "dataType" : {
+                    "type" : "Integer"
+                  }
+                }, {
+                  "name" : "department",
+                  "dataType" : {
+                    "type" : "String"
+                  }
+                } ]
+              }
+            }, {
+              "name" : "p_date",
+              "dataType" : {
+                "type" : "Date"
+              }
+            } ]
+          },
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
+    },
     "env_uitesting_main_model_bigquery_1##lC9AMin9" : {
       "id" : "env_uitesting_main_model_bigquery_1##lC9AMin9",
       "component" : "TargetModel",
@@ -161,7 +426,25 @@
         "x" : 720,
         "y" : 220,
         "phase" : 0,
-        "macroDependencies" : [ ]
+        "macroDependencies" : [ ],
+        "dataExplorerProps" : {
+          "filter" : [ {
+            "type" : "simple",
+            "lhs" : "c_base_dependency_macro",
+            "operator" : ">=",
+            "rhs" : "1"
+          } ],
+          "sort" : [ {
+            "column" : "c_base_dependency_macro",
+            "order" : "asc"
+          }, {
+            "column" : "c_boolean_macro",
+            "order" : "asc"
+          }, {
+            "column" : "c_bignumeric",
+            "order" : "asc"
+          } ]
+        }
       },
       "properties" : {
         "customQueryDisabled" : true,
@@ -456,10 +739,14 @@
       "component" : "Reformat",
       "metadata" : {
         "label" : "Reformat_1",
-        "x" : 520,
-        "y" : 220,
+        "x" : 540,
+        "y" : 340,
         "phase" : 0,
-        "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_concat_macro_base_column", "SQL_BigQueryParentProjectMain.qa_boolean_macro", "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ]
+        "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_concat_macro_base_column", "SQL_BigQueryParentProjectMain.qa_boolean_macro", "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
+        "dataExplorerProps" : {
+          "filter" : [ ],
+          "sort" : [ ]
+        }
       },
       "properties" : {
         "columnsSelector" : [ "EHazkN3U##c_int64", "EHazkN3U##c_bignumeric", "EHazkN3U##c_bool", "EHazkN3U##c_bytes", "EHazkN3U##c_string", "EHazkN3U##c_float64", "EHazkN3U##c_numeric_1", "EHazkN3U##c_numeric_2", "EHazkN3U##c_date", "EHazkN3U##c_interval", "EHazkN3U##c_time", "EHazkN3U##c_timestamp", "EHazkN3U##c_datetime", "EHazkN3U##c_geography", "EHazkN3U##c_json", "EHazkN3U##c_array_int64", "EHazkN3U##c_struct", "EHazkN3U##p_date" ],
@@ -838,10 +1125,22 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 320,
+        "x" : 340,
         "y" : 220,
         "phase" : 0,
-        "macroDependencies" : [ ]
+        "macroDependencies" : [ ],
+        "dataExplorerProps" : {
+          "filter" : [ {
+            "type" : "simple",
+            "lhs" : "c_int64",
+            "operator" : ">=",
+            "rhs" : "34"
+          } ],
+          "sort" : [ {
+            "column" : "c_int64",
+            "order" : "asc"
+          } ]
+        }
       },
       "properties" : {
         "conditions" : [ {
@@ -1285,6 +1584,12 @@
     "sourcePort" : "UcFh4Cgh",
     "target" : "env_uitesting_main_model_bigquery_1##lC9AMin9",
     "targetPort" : "hhdSxZYs"
+  }, {
+    "id" : "2OeaeMlpSq5zbId5yfZGU",
+    "source" : "all_type_table##L9ODr98E",
+    "sourcePort" : "ywvufJbk",
+    "target" : "S5QGSEwovOmXQ7RxUm1sQ$$l4shZgilmZ_O8iNvz7Y8v",
+    "targetPort" : "U5lXBcMvx0oZWHSHl_ai1$$8EQyKuVclFrMHdk3P0GS6"
   } ],
   "component" : "Model"
 }
