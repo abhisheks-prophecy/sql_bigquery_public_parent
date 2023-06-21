@@ -439,10 +439,10 @@
             "order" : "asc"
           }, {
             "column" : "c_boolean_macro",
-            "order" : "asc"
+            "order" : "desc"
           }, {
             "column" : "c_bignumeric",
-            "order" : "asc"
+            "order" : "desc"
           } ]
         }
       },
@@ -1132,12 +1132,20 @@
         "dataExplorerProps" : {
           "filter" : [ {
             "type" : "simple",
-            "lhs" : "c_int64",
+            "lhs" : "c_bignumeric",
             "operator" : ">=",
-            "rhs" : "34"
+            "rhs" : "800"
+          }, {
+            "type" : "simple",
+            "lhs" : "c_int64",
+            "operator" : "<",
+            "rhs" : "100"
           } ],
           "sort" : [ {
-            "column" : "c_int64",
+            "column" : "c_numeric_1",
+            "order" : "asc"
+          }, {
+            "column" : "c_timestamp",
             "order" : "asc"
           } ]
         }
