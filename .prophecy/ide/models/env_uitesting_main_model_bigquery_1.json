@@ -22,7 +22,14 @@
         "x" : 100,
         "y" : 120,
         "phase" : 0,
-        "comment" : "test comment"
+        "comment" : "test comment",
+        "dataExplorerProps" : {
+          "filter" : [ ],
+          "sort" : [ {
+            "column" : "c_int64",
+            "order" : "asc"
+          } ]
+        }
       },
       "properties" : {
         "table" : {
@@ -169,10 +176,15 @@
             "lhs" : "c_int64",
             "operator" : ">=",
             "rhs" : "23"
+          }, {
+            "type" : "simple",
+            "lhs" : "c_int64",
+            "operator" : ">=",
+            "rhs" : "34"
           } ],
           "sort" : [ {
             "column" : "c_int64",
-            "order" : "asc"
+            "order" : "desc"
           } ]
         }
       },
